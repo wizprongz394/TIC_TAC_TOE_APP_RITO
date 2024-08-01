@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="WELCOME TO THE TIC-TAC-TOE GAME"
+    android:textStyle="bold"
+    android:layout_marginBottom="20dp"/>
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:rowCount="3"
+        android:columnCount="3"
+        android:layout_gravity="center">
+        <Button
+            android:layout_marginLeft="10dp"
+            android:id="@+id/btn11"
+            android:onClick="Click"
+            android:backgroundTint="#07FDE9"/>
+        <Button
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:id="@+id/btn12"
+            android:onClick="Click"
+            android:backgroundTint="#07FDE9"/>
+        <Button
+
+            android:layout_marginRight="10dp"
+            android:id="@+id/btn13"
+            android:onClick="Click"
+            android:backgroundTint="#07FDE9"/>
+        <Button
+            android:layout_marginLeft="10dp"
+            android:id="@+id/btn21"
+            android:onClick="Click"
+            android:backgroundTint="#07FDE9"/>
+        <Button
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:id="@+id/btn22"
+            android:onClick="Click"
+            android:backgroundTint="#07FDE9"/>
+        <Button
+            android:layout_marginRight="10dp"
+            android:id="@+id/btn23"
+            android:onClick="Click"
+            android:backgroundTint="#07FDE9"/>
+
+        <Button
+            android:layout_marginLeft="10dp"
+            android:id="@+id/btn31"
+            android:onClick="Click"
+            android:backgroundTint="#07FDE9"/>
+        <Button
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:id="@+id/btn32"
+            android:onClick="Click"
+            android:backgroundTint="#07FDE9"/>
+        <Button
+            android:layout_marginRight="10dp"
+            android:id="@+id/btn33"
+            android:onClick="Click"
+            android:backgroundTint="#07FDE9"/>
+
+
+    </GridLayout>
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="First person=X"
+    android:textSize="20dp"
+    android:layout_marginTop="20dp"
+    android:textStyle="italic"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Second person=O"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:textStyle="italic"/>
+
+</LinearLayout>
