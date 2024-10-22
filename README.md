@@ -7,6 +7,7 @@ Winning Conditions: Automatically detects win or draw.
 Automatic Reset: Game restarts after 3 seconds once a win or draw occurs.
 Simple UI: Easy-to-use interface with responsive buttons.
 Splash Screen: A visually appealing splash screen welcomes users when the app launches.
+
 🚀 Technologies Used
 Language: Java
 Development Platform: Android Studio
